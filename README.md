@@ -9,7 +9,7 @@
 ### 2. 使用
 ```go
 func TestNewCookieCloudSDK(t *testing.T) {
-    sdk, err := NewCookieCloudSDK("", "", "")
+    sdk, err := NewCookieCloudSDK("host", "uuid", "password")
     if err != nil {
         t.Error(err)
         return
